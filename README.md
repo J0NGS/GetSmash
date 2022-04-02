@@ -1,7 +1,7 @@
 # GetSmash
 Projeto de gerenciamento de estoque e caixa
 * Contextualização do domínio;
-	CEGGS - Caixa e Estoque Gerenciamento Get Smash
+	Get Smash Stock System, nome da marca e a principal função do sistema
 * Objetivo;
 	O sistema a ser desenvolvido terá o objetivo de controlar a entrada e saída do estoque da marca get smash, além de também controlar a entrada e saida do seu caixa, gerando alguns relatorios.
 * Descrição de cada funcionalidade e os recursos (algoritmos, estruturas de dados, ferramentas, bibliotecas, etc) adotados em cada funcionalidade;
