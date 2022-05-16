@@ -22,4 +22,4 @@ Projeto de gerenciamento de estoque e caixa
 * Arquitetura;
 	MVC
 * Demais informações pertinentes.
-  Por enquanto decidimos não usar nenhum tipo de framework, usando apenas o JDBC para realizar a conexão com o BD
+  Por enquanto decidimos não usar nenhum tipo de framework, usando apenas o JDBC para realizar a conexão com o BD, utilizando o mariaDB
