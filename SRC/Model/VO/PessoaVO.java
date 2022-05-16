@@ -5,8 +5,8 @@ package SRC.Model.VO;
 
 //atributos da classe
 public class PessoaVO {
-    String nome;
-    Long id_pessoa;
+    public String nome;
+    private Long id_pessoa;
 
     // construtor de PessoaVO
 
