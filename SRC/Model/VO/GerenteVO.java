@@ -1,12 +1,12 @@
 package SRC.Model.VO;
 
-public class AdmVO extends UserVO {
+public class GerenteVO extends UserVO {
     Long id_adm;
     
     //construtor de adm
 
-    public AdmVO(String nome, String login, String senha, Integer tipo, Long id_adm) {
-        super(nome, login, senha, tipo);
+    public GerenteVO(String nome, String login, String senha, Long id_adm, String endereco) {
+        super(nome, login, senha, idUser, endereco)
         this.id_adm = id_adm;
     }
 
