@@ -8,9 +8,10 @@ public class VendedorVO extends UserVO {
     Long id_vendedor;
         
     //construtor de vendedor
-    public VendedorVO(String Nome, String login, String senha, Long idUser, Long idVendedor) {
-        super(Nome, login, senha, 0, idUser);
+    public VendedorVO(String Nome, String login, String senha, Long idUser, Long idVendedor, String endereco) {
+        super(Nome, login, senha, idUser, endereco);
         this.id_vendedor = idVendedor;
+        this.setTipo(3);
     }
 
     //getters e setters vendedor

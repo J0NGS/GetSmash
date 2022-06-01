@@ -5,31 +5,23 @@ package SRC.Model.VO;
 
 //atributos da classe
 public class ClienteVO extends PessoaVO {
-    private String telefone;
-    private String endereco;
     private Long id_cliente;
 
     
     // construtor da classe
 
-    public ClienteVO(String nome, String telefone, String endereco, Long id_cliente) {
+    public ClienteVO(String nome, String endereco, Long id_cliente) {
         super(nome);
-        this.telefone = telefone;
-        this.endereco = endereco;
         this.id_cliente = id_cliente;
     }
 
 
+    public ClienteVO(String nome, String endereco) {
+        super(nome, endereco);
+    }
+
 
     // getters e setters
-
-    public String getTelefone() {
-        return this.telefone;
-    }
-
-    public void setTelefone(String telefone) {
-        this.telefone = telefone;
-    }
 
     public String getEndereco() {
         return this.endereco;

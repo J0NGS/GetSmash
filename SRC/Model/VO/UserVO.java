@@ -12,13 +12,11 @@ public class UserVO extends PessoaVO {
     
 
     //CONSTRUTORES DE USER
-    public UserVO(String Nome,String login, String senha, int tipo, Long idUser){ // construtor de usuário
-        super(Nome);
+    public UserVO(String Nome,String login, String senha, Long idUser, String endereco){ // construtor de usuário
+        super(Nome, endereco);
         this.login = login;
         this.senha = senha;
         this.IdUser = idUser;
-        this.tipo = tipo;
-        
     }
 
     public UserVO(String nome, String login, String senha, Integer tipo) {
@@ -26,6 +24,13 @@ public class UserVO extends PessoaVO {
         this.login = login;
         this.senha = senha;
         this.tipo = tipo;
+    }
+
+    
+    public UserVO(String nome, String login, String senha, String endereco) {
+        super(nome, endereco);
+        this.login = login;
+        this.senha = senha;
     }
 
 
